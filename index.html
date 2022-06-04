@@ -8,6 +8,7 @@
     <title>Choris Simulator</title>
     
     <style>
+    html, body {margin: 0; height: 100%; overflow: hidden}
     canvas{
         position: absolute;
         top: 0px;
@@ -30,8 +31,6 @@
 </head>
 <body>
     <script>
-
-
 var audio = new Audio();
 audio.src = "audio/audio.mp3";
 audio.play();
@@ -40,6 +39,10 @@ var fim = audio.ended;
 </script>
     <script src="sprite.js">
     </script>
+    <script src="./estados.js"></script>
+    <script src="./chao.js"></script>
+    <script src="./bloco.js"></script>
+    <script src="./obstaculos.js"></script>
     <script src="script.js">
     </script>
     <h4>by Popov</h4>
