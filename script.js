@@ -148,7 +148,7 @@ function desenha() {
             obstaculos.desenha();
             break;
         case (estados.jogar):
-            ctx.fillText("Swipe or Click to", 120, 100);
+            ctx.fillText("Swipe or Use Arrows to", 60, 100);
             ctx.fillText("Choose a Dificulty!", 100, 150);
 
             switch (selectedDificulty) {
