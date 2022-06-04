@@ -149,7 +149,7 @@ function desenha() {
             break;
         case (estados.jogar):
             ctx.fillText("Swipe or Use Arrows to", 60, 100);
-            ctx.fillText("Choose a Dificulty!", 100, 150);
+            ctx.fillText("Choose a Difficulty!", 100, 150);
 
             switch (selectedDificulty) {
                 case 1: ctx.fillText("Relax", 250, 300);
